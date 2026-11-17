@@ -1,0 +1,4 @@
+__pycache__/
+.venv/
+# price data is downloaded by analysis/fetch_prices.py
+data/

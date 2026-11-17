@@ -1,0 +1,231 @@
+{
+  "reversal_5d": {
+    "train": {
+      "gross": {
+        "ann_return_pct": 4.5,
+        "ann_vol_pct": 5.56,
+        "sharpe": 0.81,
+        "max_drawdown_pct": -12.11
+      },
+      "net_5bps": {
+        "ann_return_pct": -3.44,
+        "ann_vol_pct": 5.57,
+        "sharpe": -0.62,
+        "max_drawdown_pct": -34.91
+      },
+      "avg_daily_turnover_pct": 63.0,
+      "mean_rank_ic": 0.0179,
+      "ic_t_stat": 3.67,
+      "breakeven_cost_bps": 2.8,
+      "corr_with_market": 0.19
+    },
+    "test": {
+      "gross": {
+        "ann_return_pct": 0.51,
+        "ann_vol_pct": 9.52,
+        "sharpe": 0.05,
+        "max_drawdown_pct": -25.31
+      },
+      "net_5bps": {
+        "ann_return_pct": -7.38,
+        "ann_vol_pct": 9.53,
+        "sharpe": -0.77,
+        "max_drawdown_pct": -60.0
+      },
+      "avg_daily_turnover_pct": 62.6,
+      "mean_rank_ic": 0.0075,
+      "ic_t_stat": 1.36,
+      "breakeven_cost_bps": 0.3,
+      "corr_with_market": 0.25
+    }
+  },
+  "momentum_12_1": {
+    "train": {
+      "gross": {
+        "ann_return_pct": 3.58,
+        "ann_vol_pct": 6.66,
+        "sharpe": 0.54,
+        "max_drawdown_pct": -10.25
+      },
+      "net_5bps": {
+        "ann_return_pct": 2.44,
+        "ann_vol_pct": 6.66,
+        "sharpe": 0.37,
+        "max_drawdown_pct": -10.81
+      },
+      "avg_daily_turnover_pct": 9.0,
+      "mean_rank_ic": 0.0166,
+      "ic_t_stat": 2.88,
+      "breakeven_cost_bps": 15.8,
+      "corr_with_market": -0.1
+    },
+    "test": {
+      "gross": {
+        "ann_return_pct": 1.95,
+        "ann_vol_pct": 10.2,
+        "sharpe": 0.19,
+        "max_drawdown_pct": -23.6
+      },
+      "net_5bps": {
+        "ann_return_pct": 0.84,
+        "ann_vol_pct": 10.2,
+        "sharpe": 0.08,
+        "max_drawdown_pct": -24.8
+      },
+      "avg_daily_turnover_pct": 8.9,
+      "mean_rank_ic": 0.0184,
+      "ic_t_stat": 2.88,
+      "breakeven_cost_bps": 8.8,
+      "corr_with_market": -0.16
+    }
+  },
+  "low_vol_60d": {
+    "train": {
+      "gross": {
+        "ann_return_pct": -1.51,
+        "ann_vol_pct": 7.49,
+        "sharpe": -0.2,
+        "max_drawdown_pct": -30.37
+      },
+      "net_5bps": {
+        "ann_return_pct": -2.18,
+        "ann_vol_pct": 7.49,
+        "sharpe": -0.29,
+        "max_drawdown_pct": -34.56
+      },
+      "avg_daily_turnover_pct": 5.4,
+      "mean_rank_ic": 0.0039,
+      "ic_t_stat": 0.59,
+      "breakeven_cost_bps": -11.1,
+      "corr_with_market": -0.64
+    },
+    "test": {
+      "gross": {
+        "ann_return_pct": -6.75,
+        "ann_vol_pct": 11.44,
+        "sharpe": -0.59,
+        "max_drawdown_pct": -65.88
+      },
+      "net_5bps": {
+        "ann_return_pct": -7.47,
+        "ann_vol_pct": 11.44,
+        "sharpe": -0.65,
+        "max_drawdown_pct": -69.74
+      },
+      "avg_daily_turnover_pct": 5.7,
+      "mean_rank_ic": -0.0036,
+      "ic_t_stat": -0.53,
+      "breakeven_cost_bps": -47.1,
+      "corr_with_market": -0.56
+    }
+  },
+  "combo_equal": {
+    "train": {
+      "gross": {
+        "ann_return_pct": 4.05,
+        "ann_vol_pct": 6.14,
+        "sharpe": 0.66,
+        "max_drawdown_pct": -9.9
+      },
+      "net_5bps": {
+        "ann_return_pct": -0.76,
+        "ann_vol_pct": 6.14,
+        "sharpe": -0.12,
+        "max_drawdown_pct": -19.96
+      },
+      "avg_daily_turnover_pct": 38.2,
+      "mean_rank_ic": 0.0226,
+      "ic_t_stat": 4.26,
+      "breakeven_cost_bps": 4.2,
+      "corr_with_market": -0.36
+    },
+    "test": {
+      "gross": {
+        "ann_return_pct": -1.76,
+        "ann_vol_pct": 9.3,
+        "sharpe": -0.19,
+        "max_drawdown_pct": -37.17
+      },
+      "net_5bps": {
+        "ann_return_pct": -6.41,
+        "ann_vol_pct": 9.3,
+        "sharpe": -0.69,
+        "max_drawdown_pct": -60.88
+      },
+      "avg_daily_turnover_pct": 36.9,
+      "mean_rank_ic": 0.0137,
+      "ic_t_stat": 2.35,
+      "breakeven_cost_bps": -1.9,
+      "corr_with_market": -0.29
+    }
+  },
+  "combo_ic_weighted": {
+    "train": {
+      "gross": {
+        "ann_return_pct": 5.0,
+        "ann_vol_pct": 5.81,
+        "sharpe": 0.86,
+        "max_drawdown_pct": -6.98
+      },
+      "net_5bps": {
+        "ann_return_pct": -0.88,
+        "ann_vol_pct": 5.81,
+        "sharpe": -0.15,
+        "max_drawdown_pct": -17.7
+      },
+      "avg_daily_turnover_pct": 46.7,
+      "mean_rank_ic": 0.0227,
+      "ic_t_stat": 4.42,
+      "breakeven_cost_bps": 4.3,
+      "corr_with_market": -0.06
+    },
+    "test": {
+      "gross": {
+        "ann_return_pct": 0.06,
+        "ann_vol_pct": 9.18,
+        "sharpe": 0.01,
+        "max_drawdown_pct": -33.11
+      },
+      "net_5bps": {
+        "ann_return_pct": -5.69,
+        "ann_vol_pct": 9.19,
+        "sharpe": -0.62,
+        "max_drawdown_pct": -54.36
+      },
+      "avg_daily_turnover_pct": 45.6,
+      "mean_rank_ic": 0.0158,
+      "ic_t_stat": 2.77,
+      "breakeven_cost_bps": 0.1,
+      "corr_with_market": -0.01
+    }
+  },
+  "ic_weights_from_train": {
+    "reversal_5d": 0.459,
+    "momentum_12_1": 0.429,
+    "low_vol_60d": 0.112
+  },
+  "universe": {
+    "stocks": 104,
+    "start": "2011-01-13",
+    "end": "2025-12-30",
+    "train_end": "2017-12-31",
+    "cost_bps_one_way": 5
+  },
+  "pnl_correlations": {
+    "reversal_5d": {
+      "reversal_5d": 1.0,
+      "momentum_12_1": 0.05,
+      "low_vol_60d": -0.17
+    },
+    "momentum_12_1": {
+      "reversal_5d": 0.05,
+      "momentum_12_1": 1.0,
+      "low_vol_60d": 0.2
+    },
+    "low_vol_60d": {
+      "reversal_5d": -0.17,
+      "momentum_12_1": 0.2,
+      "low_vol_60d": 1.0
+    }
+  }
+}
